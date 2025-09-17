@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* SAMSUNG */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container .web-title {
+    border: 8px groove #d9dc07;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background: rgba(229, 106, 6, 1);
+    margin-top: 30px;
+}
+
+.container .web-title h2 {
+    font-size: 32px;
+    color: #FFF;
+}
+
+.product-area-I {
+    border: 7px solid #000000;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.product-area-I .product-name {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.product-area-I .product-image img {
+    width: 250px;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.product-area-I .product-price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #998f8f;
+    margin-bottom: 15px;
+}
+
+.product-area-I .product-info {
+    margin-bottom: 15px;
+} 
+
+.product-area-I .product-info h3 {
+    color: #006400;
+    margin-bottom: 15px;
+}
+
+.product-area-I .product-info ul {
+    list-style: disc;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #f05f05;
+}
+
+.product-area-I .product-info ul li {
+    margin-bottom: 8px;
+}
+
+.product-area-I .product-info ul li:last-child {
+    margin: 0;
+}
+
+.product-area-I .shipping-detail {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5da6e6;
+    margin-bottom: 20px;
+}
+
+.product-area-I .purchase-area a,
+.product-area-I .purchase-area a:link,
+.product-area-I .purchase-area a:visited,
+.product-area-I .purchase-area a:active 
+{
+    background-color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px;
+}
+
+.product-area-I .purchase-area a:hover {
+    color: red;
+}
+
+/* IPHONE */
+
+.product-area-II {
+    border: 7px solid #000000;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.product-area-II .product-name {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.product-area-II .product-image img {
+    width: 250px;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.product-area-II .product-price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #998f8f;
+    margin-bottom: 15px;
+}
+
+.product-area-II .product-info {
+    margin-bottom: 15px;
+} 
+
+.product-area-II .product-info h3 {
+    color: #006400;
+    margin-bottom: 15px;
+}
+
+.product-area-II .product-info ul {
+    list-style: disc;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #f05f05;
+}
+
+.product-area-II .product-info ul li {
+    margin-bottom: 8px;
+}
+
+.product-area-II .product-info ul li:last-child {
+    margin: 0;
+}
+
+.product-area-II .shipping-detail {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5da6e6;
+    margin-bottom: 20px;
+}
+
+.product-area-II .purchase-area a,
+.product-area-II .purchase-area a:link,
+.product-area-II .purchase-area a:visited,
+.product-area-II .purchase-area a:active 
+{
+    background-color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px;
+}
+
+.product-area-II .purchase-area a:hover {
+    color: red;
+}
+
+/* SONY */
+
+.product-area-III {
+    border: 7px solid #000000;
+    padding: 20px;
+}
+
+.product-area-III .product-name {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.product-area-III .product-image img {
+    width: 250px;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.product-area-III .product-price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #998f8f;
+    margin-bottom: 15px;
+}
+
+.product-area-III .product-info {
+    margin-bottom: 15px;
+} 
+
+.product-area-III .product-info h3 {
+    color: #006400;
+    margin-bottom: 15px;
+}
+
+.product-area-III .product-info ul {
+    list-style: disc;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #f05f05;
+}
+
+.product-area-III .product-info ul li {
+    margin-bottom: 8px;
+}
+
+.product-area-III .product-info ul li:last-child {
+    margin: 0;
+}
+
+.product-area-III .shipping-detail {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5da6e6;
+    margin-bottom: 20px;
+}
+
+.product-area-III .purchase-area a,
+.product-area-III .purchase-area a:link,
+.product-area-III .purchase-area a:visited,
+.product-area-III .purchase-area a:active 
+{
+    background-color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px;
+}
+
+.product-area-III .purchase-area a:hover {
+    color: red;
+}
+
+
