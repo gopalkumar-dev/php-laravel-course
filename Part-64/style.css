@@ -54,6 +54,7 @@ body {
     right: -12px;
     background: #ffff00;
     font-weight: bold;
+    padding: 7px;
 }
 
 
@@ -123,3 +124,4 @@ body {
 .product-area .purchase-area a:hover {
     color: red;
 }
+
