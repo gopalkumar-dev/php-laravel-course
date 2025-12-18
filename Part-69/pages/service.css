@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.service-info {
+    position: absolute;
+    top: 75px;
+    left: 500px;
+}
+
+.service-info h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.h-color {
+    color: #e2536b;
+    font-size: 30px;
+}
+
+.header-area {
+    position: relative;
+}
+
+.navigation {
+    position: absolute;
+    right: 48px;
+    top: 25px;
+    z-index: 9999;
+}
+
+.navigation a, 
+.navigation a:link, 
+.navigation a:visited, 
+.navigation a:active {
+    padding: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+.main-area {
+    position: relative;
+    padding-top: 160px;
+    margin-bottom: 100px;
+}
+
+
+
+.area-one {
+    width: 25%;
+    height: 350px;
+    float: left;
+    padding-left: 15px;
+}
+.area-two {
+    width: 25%;
+    height: 350px;
+    float: left;
+    padding-left: 15px;
+}
+.area-three {
+    width: 25%;
+    height: 350px;
+    float: left;
+    padding-left: 15px;
+}
+
+.area-four {
+    width: 25%;
+    height: 350px;
+    float: left;
+    padding-left: 15px;
+}
+
+.images {
+    width: 270px;
+    
+}
+
+.footer-area {
+    margin-right: 40px;
+}
+
+.footer-area .display {
+    display: inline-block;
+
+}
+
+.follow-me {
+    float: right;
+
+}
+
+.great-site {
+    float: right;
+}
+
+.footer-area div a,
+.footer-area div a:link,
+.footer-area div a:visited,
+.footer-area div a:active {
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+}
+
+.footer-area div a:hover {
+    color: #ff0000;
+}
+
