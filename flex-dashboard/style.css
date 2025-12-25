@@ -220,6 +220,7 @@
 .announcement-list ul li {
     list-style: none;
     font-family: sans-serif;
+    margin-bottom: 15px;
 }
 
 .announce-para {
@@ -294,4 +295,5 @@
 
 .copyright {
     margin-bottom: 25px;
+
 }
