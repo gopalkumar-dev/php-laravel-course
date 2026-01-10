@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1264px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header-area h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.area-one {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.container-I {
+    border: 3px solid black;
+    flex-basis: 292px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #16ec16;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.fl-two {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fl-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.area-two {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.container-II {
+    flex-basis: 292px;
+    height: 240px;
+    border: 3px solid black;
+    
+}
+
+.section-I-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    
+}
+
+.height-II {
+    height: 110px;
+}
+
+.height-III {
+    height: 87px;
+}
+
+.section-II-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dhgh {
+    height: 110px;
+}
+
+.gfsf {
+    height: 80px;
+}
+
+.section-III-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    gap: 20px;
+}
+
+.ada {
+    height: 113px;
+}
+
+.dasd {
+    height: 87px;
+}
+
+.section-IV-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.refd {
+    height: 175px;
+}
+
+.both-side {
+    display: flex;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.left-side {
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    height: 2000px;
+}
+
+.devider {
+    width: 8px;
+    height: 900px;
+    background: #16ec16;
+}
+
+.right-side {
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    height: 2000px;
+
+}
+
+.container-IV {
+    width: 278px;
+    height: 220px;
+    border: 3px solid black;
+}
+
+.area-three-left-I {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+} 
+
+.area-three-left-II {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+} 
+
+
+
+.container-III {
+    width: 290px;
+    height: 220px;
+    border: 3px solid black;
+}
+
+
+
+
+
+.right-I {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.right-II {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.left-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding-left: 20px;
+}
+
+.gdhf{
+    width: 30px;
+}
+
+.fagd {
+    height: 160px;
+    border-radius: 8px;
+}
+
+.left-two {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+}
+
+.left-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.left-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.width-right {
+    width: 50px;
+}
+
+.box-right {
+    width: 40px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #16ec16
+}
+
+.extra-grow {
+    flex-grow: 2;
+}
+
+.right-one {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 8px;
+}
+
+.right-two {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 8px;
+}
+
+.right-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 8px;
+}
+
+.right-four {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 39px;
+    padding: 8px;
+}
+
+.right-five {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 39px;
+    padding: 8px;
+}
+
+.wd1 {
+    width: 40px;
+    border-radius: 8px;
+}
+
+.right-six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 8px
+}
+
+
+
+
+
+
