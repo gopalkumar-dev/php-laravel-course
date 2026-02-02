@@ -7,7 +7,7 @@
 
 .container {
     display: grid;
-    grid-template-rows: 2fr 7fr 8fr 8fr 6fr;
+    grid-template-rows: 2fr 7fr 8fr 8fr 4fr;
     grid-template-columns: 1fr;
 }
 
@@ -180,4 +180,5 @@
     list-style: none;
     font-size: 14px;
     padding: 2px;
+
 }
