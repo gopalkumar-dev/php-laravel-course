@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 2fr 1fr 2fr 3fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    width: 760px;
+    margin-top: 23px;
+}
+
+.area-one {
+    display: flex;
+    gap: 83px;
+}
+
+.intro-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+}
+
+.heading-para {
+    font-size: 26px;
+}
+
+.intro-para {
+    text-align: justify;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.shop-button a {
+    font-size: 13px;
+}
+
+.shop-button a:hover {
+    color: red;
+}
+
+
+.image-area {
+    width: 50%;
+}
+
+
+.area-II-para {
+    display: flex;
+    gap: 72px;
+
+}
+
+.two-head {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para-head {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.p-info {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.area-three {
+    display: flex;
+    gap: 40px;
+}
+
+.three-head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+
+.three-para {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texts {
+    padding-top: 60px;
+} 
+
+
+.area-four h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.our-items {
+    display: flex;
+    gap: 24px;
+}
+
+.product-name {
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 33.33%;
+    height: 360px;
+    gap: 10px;
+}
+
+.product-info p {
+    font-family: sans-serif;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.price span {
+    display: inline-block;
+}
+
+.footer-area {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+    
