@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 760px;
+    margin-top: 23px;
+}
+
+
+/* .area-one img {
+    width: 100%;
+} */
+
+img {
+    width: 100%;
+}
+
+.area-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 83px;
+    margin-bottom: 32px;
+}
+
+.intro-area {
+    align-self: center;
+}
+
+.heading-para {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.intro-para {
+    text-align: justify;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.shop-button a {
+    font-size: 16px;
+}
+
+.shop-button a:hover {
+    color: red;
+}
+
+.area-two {
+    margin-bottom: 36px;
+}
+
+.area-II-para {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 67px;
+}
+
+.two-head {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para-head {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.p-info {
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.area-three {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    column-gap: 40px;
+    margin-bottom: 32px;
+}
+
+.three-head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+
+.three-para {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texts {
+    align-self: center;
+    grid-column: 2 / -1;
+} 
+
+.area-four {
+    margin-bottom: 32px;
+}
+
+.area-four h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.our-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.product-name {
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.item-3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.product-info p {
+    font-family: sans-serif;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 46px;
+    margin-bottom: 10px;
+}
+
+.price a:hover {
+    color: #df2727;
+}
+
+.footer-area {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 13px;
+}
+    
